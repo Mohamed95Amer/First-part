@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+<h1>Register</h1>
+<div>
+  <form action="" method="post">
+    <div>
+      <lable for="firstName">
+        First Name
+      </lable>
+      <input type="text" maxlength="60" name="firstName" id="firstName">
+      <lable for="lastName">
+        Last Name
+      </lable>
+      <input type="text" maxlength="60" name="lastName" id="lastName">
+
+    </div>
+    <br>
+    <div>
+      <lable for="username">
+        Username
+      </lable>
+      <input type="text" maxlength="60" minlength="6" required
+             name="username" id="username">
+
+    </div>
+    <br>
+    <div>
+      <lable for="email">
+        Email
+      </lable>
+      <input type="email" maxlength="100"  required
+             name="email" id="email">
+
+    </div>
+    <br>
+    <div>
+      <lable for="password">
+        Password
+      </lable>
+      <input type="password" maxlength="60" minlength="6" required
+             name="password" id="password">
+
+    </div>
+    <br>
+    <div>
+      <lable for="gender">
+        Gender
+      </lable>
+      <select name="gender" id="gender">
+        <option value="" selected disabled></option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+
+    </div>
+    <br>
+    <div>
+      <lable for="birthDate">
+        Birth Date
+      </lable>
+      <input type="date" maxlength="60"
+             name="birthDate" id="birthDate">
+
+    </div>
+    <br>
+    <div>
+      <lable for="address">
+        Address
+      </lable>
+      <input type="text" maxlength="160"
+             name="address" id="address">
+
+    </div>
+    <lable for="bio">
+      Bio.
+    </lable> 
+    <textarea name="bio" id="bio" maxlength="1000" cols="30" rows="3"></textarea>
+
+</div>
+    <div>
+      <button type="submit">Register</button>
+      <button type="reset">Reset</button>
+    </div>
+    <div>
+      Already signed in ?
+      <a href="login.html">Login</a>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
